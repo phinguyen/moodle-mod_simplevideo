@@ -35,7 +35,7 @@ $string['video_url'] = 'ストリーミング動画のURL';
 $string['simplevideoname'] = 'シンプル動画プレーヤー';
 $string['simplevideoname_help'] = 'ストリーミング動画を再生させることができます。';
 $string['simplevideo'] = 'シンプル動画プレーヤー';
-
+$string['no_js_support'] = 'この動画をご覧になるには、JavaScriptを有効にして、HTML5動画をサポートするウェブブラウザにアップグレードすることを検討してください。';
 $string['pluginadministration'] = 'シンプル動画プレーヤー管理画面';
 
 $string['enable_autoload'] = '自動的に動画を再生させる';
