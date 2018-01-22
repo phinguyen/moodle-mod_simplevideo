@@ -47,8 +47,6 @@ $PAGE->navbar->add($strname);
 $PAGE->set_title("$course->shortname: $strname");
 $PAGE->set_heading($course->fullname);
 $PAGE->set_pagelayout('incourse');
-$completion = new \completion_info($course);
-$completion->set_module_viewed($cm);
 echo $OUTPUT->header();
 echo $OUTPUT->heading($strname);
 

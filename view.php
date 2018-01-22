@@ -66,7 +66,8 @@ $PAGE->requires->js(new \moodle_url("js/video.min.js"), true);
 $PAGE->requires->js(new \moodle_url("js/videojs-flash.min.js"), true);
 $PAGE->requires->js(new \moodle_url("js/videojs-contrib-hls.min.js"), true);
 //$PAGE->requires->js(new \moodle_url("js/video_main.js"));
-
+$completion = new \completion_info($course);
+$completion->set_module_viewed($cm);
 echo $OUTPUT->header();
 
 echo html_writer::tag("h1", $instance->name);
