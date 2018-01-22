@@ -37,7 +37,7 @@ $string['simplevideoname_help'] = 'ストリーミング動画を再生させる
 $string['simplevideo'] = 'シンプル動画プレーヤー';
 $string['no_js_support'] = 'この動画をご覧になるには、JavaScriptを有効にして、HTML5動画をサポートするウェブブラウザにアップグレードすることを検討してください。';
 $string['pluginadministration'] = 'シンプル動画プレーヤー管理画面';
-
+$string['simplevideo:view'] = 'ビュー';
 $string['enable_autoload'] = '自動的に動画を再生させる';
 $string['enable_autoload_help'] = '生徒がページを開いたら動画が自動的に再生されるようにします。';
 

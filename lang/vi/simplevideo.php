@@ -38,7 +38,7 @@ $string['simplevideoname_help'] = 'This is the content of the help tooltip assoc
 $string['simplevideo'] = 'Simplevideo';
 $string['no_js_support'] = 'Để xem được video này, bạn cần mở JavaScript, hoặc có thể nâng cấp trình duyệt để hỗ trợ HTML5 video';
 $string['pluginadministration'] = 'Simplevideo administration';
-
+$string['simplevideo:view'] = 'Xem';
 $string['enable_autoload'] = 'Tự động phát';
 $string['enable_autoload_help'] = 'Video sẽ tự động phát khi mở trang.';
 

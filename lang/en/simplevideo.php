@@ -38,7 +38,7 @@ $string['simplevideoname_help'] = 'This is the content of the help tooltip assoc
 $string['simplevideo'] = 'Simplevideo';
 $string['no_js_support'] = 'To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video';
 $string['pluginadministration'] = 'Simplevideo administration';
-
+$string['simplevideo:view'] = 'View';
 $string['enable_autoload'] = 'Make movies play automatically';
 $string['enable_autoload_help'] = 'When the student opens the page, the video will be played automatically.';
 
