@@ -65,12 +65,12 @@ var player = videojs("simplevideo_player", {
     plugins: {},
     flash : {
         hls: {
-            withCredentials: false
+            withCredentials: true
         }
     },
     html5 : {
         hls: {
-            withCredentials: false
+            withCredentials: true
         }
     },
     playbackRates :  [0.5, 1.0, 1.5, 2.0 ,2.5, 3],
@@ -80,7 +80,7 @@ var player = videojs("simplevideo_player", {
 player.src({
     src: "$url",
     type: 'application/x-mpegURL',
-    withCredentials: false
+    withCredentials: true
 });
 
 JS;

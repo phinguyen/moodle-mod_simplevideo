@@ -71,6 +71,7 @@ class mod_simplevideo_mod_form extends moodleform_mod
 
         $mform->addElement('advcheckbox', 'enable_controler', get_string('enable_controler', "simplevideo"));
         $mform->addHelpButton('enable_controler', 'enable_controler', "simplevideo");
+        $mform->setDefault('enable_controler', 1);
 
         if ($CFG->branch >= 29) {
             $this->standard_intro_elements();
