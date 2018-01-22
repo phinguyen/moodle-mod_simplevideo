@@ -46,7 +46,7 @@ class html_writer extends \html_writer
 
         $html = html_writer::start_tag("video", $params);
         $html .= html_writer::empty_tag("source", ["src" => $url, "type" => $video_type]);
-        $html .= html_writer::tag("p", "動画をこの画面で再生する場合、Javascriptを有効にして下さい。", ["class" => "vjs-no-js"]);
+        $html .= html_writer::tag("p", get_string('no_js_support', 'simplevideo'), ["class" => "vjs-no-js"]);
         $html .= html_writer::end_tag("video");
 
         $enable_autoload = (int)$enable_autoload == 1 ? "true" : "false";

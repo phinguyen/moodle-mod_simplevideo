@@ -57,22 +57,22 @@ $event = event\course_module_viewed::create([
 $event->add_record_snapshot('course', $PAGE->course);
 $event->add_record_snapshot($PAGE->cm->modname, $instance);
 $event->trigger();
-
 $PAGE->set_url('/mod/simplevideo/view.php', ['id' => $cm->id]);
 $PAGE->set_title(format_string($instance->name));
 $PAGE->set_heading(format_string($course->fullname));
 $PAGE->requires->css(new \moodle_url("css/video-js.min.css"));
 $PAGE->requires->jquery();
 $PAGE->requires->js(new \moodle_url("js/video.min.js"), true);
+$PAGE->requires->js(new \moodle_url("js/videojs-flash.min.js"), true);
 $PAGE->requires->js(new \moodle_url("js/videojs-contrib-hls.min.js"), true);
-$PAGE->requires->js(new \moodle_url("js/video_main.js"));
+//$PAGE->requires->js(new \moodle_url("js/video_main.js"));
 
 echo $OUTPUT->header();
 
 echo html_writer::tag("h1", $instance->name);
 
-echo \html_writer::link("#", "全画面再生する", ["id" => "btn_fullscreen", "class" => "btn btn-success"]);
-echo \html_writer::empty_tag("hr");
+//echo \html_writer::link("#", "全画面再生する", ["id" => "btn_fullscreen", "class" => "btn btn-success"]);
+//echo \html_writer::empty_tag("hr");
 
 echo html_writer::start_div("container");
 

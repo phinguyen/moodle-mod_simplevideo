@@ -28,8 +28,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'mod_simplevideo';
-$plugin->version = 2017021101;
-$plugin->release = 'v0.6';
+$plugin->version = 2018012201;
+$plugin->release = 'v0.7';
 $plugin->requires = 2014051200;
 $plugin->maturity = MATURITY_STABLE;
 $plugin->cron = 0;

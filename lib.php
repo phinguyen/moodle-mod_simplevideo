@@ -52,6 +52,8 @@ function simplevideo_supports($feature) {
             return true;
         case FEATURE_GRADE_HAS_GRADE:
             return true;
+        case FEATURE_COMPLETION_TRACKS_VIEWS: 
+            return true;
         case FEATURE_BACKUP_MOODLE2:
             return true;
         default:

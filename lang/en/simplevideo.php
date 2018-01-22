@@ -28,20 +28,21 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['modulename'] = 'simplevideo';
-$string['modulenameplural'] = 'simplevideos';
+$string['modulename'] = 'Simplevideo';
+$string['modulenameplural'] = 'Simplevideos';
 $string['modulename_help'] = 'Use the simplevideo module for... | The simplevideo module allows...';
 $string['video_url'] = 'URL for streaming video';
 $string['simplevideofieldset'] = 'Custom example fieldset';
-$string['simplevideoname'] = 'simplevideo name';
+$string['simplevideoname'] = 'Video Name';
 $string['simplevideoname_help'] = 'This is the content of the help tooltip associated with the simplevideoname field. Markdown syntax is supported.';
-$string['simplevideo'] = 'simplevideo';
-$string['pluginadministration'] = 'simplevideo administration';
+$string['simplevideo'] = 'Simplevideo';
+$string['no_js_support'] = 'To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video';
+$string['pluginadministration'] = 'Simplevideo administration';
 
-$string['enable_autoload'] = '自動的に動画を再生させる';
-$string['enable_autoload_help'] = '生徒がページを開いたら動画が自動的に再生されるようにします。';
+$string['enable_autoload'] = 'Make movies play automatically';
+$string['enable_autoload_help'] = 'When the student opens the page, the video will be played automatically.';
 
-$string['enable_controler'] = 'シークバーを表示させる';
-$string['enable_controler_help'] = 'シークバーを表示させるか設定できます';
+$string['enable_controler'] = 'Display the seek bar';
+$string['enable_controler_help'] = 'You can set whether to show the seek bar';
 
 $string['pluginname'] = 'simplevideo';
