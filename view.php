@@ -90,7 +90,7 @@ if ($instance->intro) {
 //動画プレーヤーを表示させる。
 $videotag_params = [
     "id" => "simplevideo_player",
-    "class" => "video-js vjs-default-skin"
+    "class" => "video-js vjs-default-skin vjs-16-9 vjs-big-play-centered"
 ];
 echo html_writer::start_div("span7");
 echo html_writer::video(new \moodle_url($instance->url), $videotag_params, $instance->enable_autoload, $instance->enable_controler);
